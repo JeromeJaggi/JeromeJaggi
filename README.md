@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @JeromeJaggi
+- 👀 I’m interested in Data Science, Machine Learning & Python
+- 🌱 I’m currently learning Python to get started with data science
+- 💞️ I’m looking to collaborate on any beginner Python project
+- 📫 How to reach me: jerome.jaggi@gmail.com
