@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @JeromeJaggi
-- 👀 I’m interested in Data Science, Machine Learning & Python
-- 🌱 I’m currently learning Python to get started with data science
-- 💞️ I’m looking to collaborate on any beginner Python project
+- 👀 I’m interested in Data Science, Machine Learning & building stuff
+- 🌱 I’m currently learning Python and Dart to get started with data science and some light web apps
+- 💞️ I’m looking to collaborate on any beginner project
 - 📫 How to reach me: jerome.jaggi@gmail.com
+- 👨🏽‍💻 Currently working on [https://github.com/braunwiediefarbe/schaff](url)
