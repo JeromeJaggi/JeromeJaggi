@@ -1,6 +1,6 @@
 #Getting the number of people, tip percentage and total bill from the user and storing them in variables
-total_bill = float(input ("What was the total bill?\n"))
-tip_percent = float(input ("What percentage of tipp would you like to give?\n"))
+total_bill = float(input ("What was the total bill? USD\n"))
+tip_percent = float(input ("What percentage of tipp would you like to give? %\n"))
 num_people = float(input ("How many people are splitting the bill?\n"))
 
 #tip_factor gives the number which total_bill can be multiplied with to find the new total bill amount including tip
