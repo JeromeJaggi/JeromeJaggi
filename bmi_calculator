@@ -1,0 +1,11 @@
+#Getting the weight and hight from user inputs
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+# Calculating the BMI and converting the value to an INT
+bmi = (float(weight) / float(height)**2)
+bmi_int = int(bmi)
+
+#printing the results of the calculation to the console
+print ("Your exact BMI is: " + str(bmi))
+print ("Your INT BMI is :" + str(bmi_rounded))
