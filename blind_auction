@@ -1,0 +1,33 @@
+import art as art
+from replit import clear
+
+
+print (art.logo)
+auction = {}
+keep_going = True
+
+
+#Define function that finds the highets of all bids
+def find_max_bid (bidding_record):
+  highest_bid = 0
+  winner = ""
+  for bidder in bidding_record:
+    bid_amount = bidding_record [bidder]
+    if bid_amount > highest_bid:
+      highest_bid = bid_amount
+      winner = bidder
+  print (f"The winner is {winner}, with a bid of CHF {highest_bid}")      
+
+#adding names and bidds as key (name) and value (bid) to the auction dict
+while keep_going:
+  name = input("What is your name?:\n")
+  price = int(input ("What is your bid?:\nCHF "))
+  auction[name] = price
+  
+  #check if the programme should continue and clear the screen
+  status_check = input ("Are there any other bidders, type yes or no:\n").lower()
+  if status_check == "no":
+    keep_going = False
+    find_max_bid (auction)
+  elif status_check == "yes":
+    clear()
