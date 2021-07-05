@@ -1,0 +1,57 @@
+# Select a random account to compare with another randomly selected one
+import random
+from art import logo, vs
+from game_data import data
+from replit import clear
+
+def format_data (account):
+  """Takes account data and returns printable format."""
+  account_name = account["name"]
+  account_descr = account["description"]
+  account_country = account["country"]
+  return (f"{account_name}, {account_descr} from {account_country}")
+
+def check_answer (guess, a_followers, b_followers):
+  """Take the users guess and followers of a and b and returns if they got it right"""
+  if a_followers > b_followers:
+    return guess == "a"
+  else:
+    return guess == "b"
+
+print (logo)
+score = 0
+should_continue = True
+account_b = random.choice (data)
+
+while should_continue == True:
+  # Random accounts
+  account_a = account_b
+  account_b = random.choice (data)
+  while account_a == account_b:
+    account_b = random.choice(data)
+
+  print (f"Compare A: {format_data (account_a)}")
+  print (vs)
+  print (f"To B: {format_data (account_b)}")
+
+  guess = input ("Who has more followers? Type A or B? ").lower()
+
+  # Check followers
+  a_follower_account = account_a ["follower_count"]
+  b_follower_account = account_b ["follower_count"]
+
+  is_correct = check_answer (guess, a_follower_account, b_follower_account)
+
+  clear()
+  print (logo)
+
+# Give user feedback
+# Keep score
+
+  if is_correct:
+    score += 1
+    print (f"You are right. Your current score is {score}.")
+  
+  else:
+    should_continue = False
+    print (f"Sorry, that's wrong. Your final score is {score}")
