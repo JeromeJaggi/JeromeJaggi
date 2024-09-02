@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @JeromeJaggi
-- 👀 I’m interested in Data Science, Machine Learning & building stuff
 - 🌱 CoS at Unikraft
+- 👀 I’m interested in Cloud & Machine Learning 
