@@ -1,5 +1,3 @@
 - 👋 Hi, I’m @JeromeJaggi
 - 👀 I’m interested in Data Science, Machine Learning & building stuff
-- 🌱 I’m currently doing my MSc in CompSci at the Uni of Kent
-- 💞️ I’m looking to collaborate on any beginner project
-- 📫 How to reach me: jerome.jaggi@gmail.com
+- 🌱 CoS at Unikraft
